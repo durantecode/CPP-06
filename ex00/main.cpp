@@ -6,11 +6,15 @@
 /*   By: ldurante <ldurante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/03 21:01:08 by ldurante          #+#    #+#             */
-/*   Updated: 2022/05/04 01:08:56 by ldurante         ###   ########.fr       */
+/*   Updated: 2022/06/01 18:46:40 by ldurante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Conversion.hpp"
+
+/* static_cast<type> (expr):
+The static_cast operator performs a nonpolymorphic cast. For example, 
+it can be used to cast a base class pointer into a derived class pointer. */
 
 void convert(const char *input)
 {
