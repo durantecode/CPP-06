@@ -6,7 +6,7 @@
 /*   By: ldurante <ldurante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 11:41:19 by ldurante          #+#    #+#             */
-/*   Updated: 2022/05/04 14:13:47 by ldurante         ###   ########.fr       */
+/*   Updated: 2022/06/01 20:18:10 by ldurante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ Data *deserialize(uintptr_t raw)
 	Data *casted;
 
 	casted = reinterpret_cast<Data*>(raw);
-	return casted;
+	return (casted);
 }
 
 int main(void)

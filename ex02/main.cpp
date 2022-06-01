@@ -6,11 +6,17 @@
 /*   By: ldurante <ldurante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 14:15:21 by ldurante          #+#    #+#             */
-/*   Updated: 2022/05/04 17:06:38 by ldurante         ###   ########.fr       */
+/*   Updated: 2022/06/01 20:31:05 by ldurante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
+
+/* dynamic_cast<type> (expr) − The dynamic_cast performs a runtime cast that
+verifies the validity of the cast. If the cast cannot be made, the cast fails
+and the expression evaluates to null. A dynamic_cast performs casts on polymorphic
+types and can cast a A* pointer into a B* pointer only if the object being pointed
+to actually is a B object. */
 
 class Base
 {
