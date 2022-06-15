@@ -6,15 +6,20 @@
 /*   By: ldurante <ldurante@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/05/04 11:41:19 by ldurante          #+#    #+#             */
-/*   Updated: 2022/06/01 20:18:10 by ldurante         ###   ########.fr       */
+/*   Updated: 2022/06/15 14:03:13 by ldurante         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <iostream>
 
 /* reinterpret_cast<type> (expr) − 
-The reinterpret_cast operator changes a pointer to any other type of pointer.
-It also allows casting from pointer to an integer type and vice versa. */
+reinterpret_cast converts any pointer type to any other pointer type, even of unrelated classes.
+The operation result is a simple binary copy of the value from one pointer to the other.
+All pointer conversions are allowed: neither the content pointed nor the pointer type itself is checked.
+
+It can also cast pointers to or from integer types. The format in which this integer value
+represents a pointer is platform-specific. The only guarantee is that a pointer cast to an
+integer type large enough to fully contain it, is granted to be able to be cast back to a valid pointer. */
 
 struct Data
 {
